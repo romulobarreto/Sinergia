@@ -71,7 +71,7 @@ DATABASES = {
     }
 }
 
-
+AUTH_USER_MODEL = 'register.CustomUser'
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
@@ -131,7 +131,7 @@ JAZZMIN_SETTINGS = {
 
     "icons": {
         "auth": "fas fa-users-cog",
-        "auth.user": "fas fa-user",
+        "register.CustomUser": "fas fa-user",
         "auth.Group": "fas fa-users",
         "register.Type":"fas fa-list",
         "register.Team":"fas fa-car-side",
